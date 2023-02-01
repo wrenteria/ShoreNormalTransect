@@ -97,4 +97,4 @@ for i in range(len(snt)):
     trs = snt[i]
     ax.plot(trs[:,0],trs[:,1],'b')
 ax.gridlines(draw_labels=True)
-plt.show()
+plt.savefig('shorenormaltransect.png')
